@@ -30,7 +30,7 @@
     
     UITableView *tableView = [[UITableView alloc]initWithFrame:tableFrame style:UITableViewStyleGrouped];
     
-tableView.rowHeight = 70;
+    tableView.rowHeight = 70;
    
     tableView.sectionFooterHeight = 0;
     tableView.sectionHeaderHeight = 0;
@@ -49,7 +49,7 @@ tableView.rowHeight = 70;
     [tableView registerNib:[UINib nibWithNibName:@"TableViewCell" bundle:nil]  forCellReuseIdentifier:@"myCell"];
     
     [tableView registerNib:[UINib nibWithNibName:@"ObligatoryCell" bundle:nil]  forCellReuseIdentifier:@"MandatoryCell"];
-    
+    [tableView setBackgroundColor:[UIColor redColor]];
     
    // [tableView registerNib:[UINib nibWithNibName:@"DynamicCells" bundle:nil] forCellWithReuseIdentifier:@"myCell"];
     self.count = 1;

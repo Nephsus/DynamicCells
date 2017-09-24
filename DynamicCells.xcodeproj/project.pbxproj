@@ -22,6 +22,9 @@
 		28FC56851F700FA200D628A4 /* ObligatoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC56831F700FA200D628A4 /* ObligatoryCell.m */; };
 		28FC56861F700FA200D628A4 /* ObligatoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FC56841F700FA200D628A4 /* ObligatoryCell.xib */; };
 		28FC56881F7012FB00D628A4 /* button-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC56871F7012FB00D628A4 /* button-background.png */; };
+		5BA0B22A1F77C16700137C7A /* ExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0B2281F77C16700137C7A /* ExpandableCell.m */; };
+		5BA0B22B1F77C16700137C7A /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA0B2291F77C16700137C7A /* ExpandableCell.xib */; };
+		5BA0B22D1F78206E00137C7A /* Unchecked Checkbox Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA0B22C1F78206E00137C7A /* Unchecked Checkbox Filled-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,11 @@
 		28FC56831F700FA200D628A4 /* ObligatoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObligatoryCell.m; sourceTree = "<group>"; };
 		28FC56841F700FA200D628A4 /* ObligatoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObligatoryCell.xib; sourceTree = "<group>"; };
 		28FC56871F7012FB00D628A4 /* button-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-background.png"; sourceTree = "<group>"; };
+		5BA0B2271F77C16700137C7A /* ExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableCell.h; sourceTree = "<group>"; };
+		5BA0B2281F77C16700137C7A /* ExpandableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableCell.m; sourceTree = "<group>"; };
+		5BA0B2291F77C16700137C7A /* ExpandableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
+		5BA0B22C1F78206E00137C7A /* Unchecked Checkbox Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unchecked Checkbox Filled-50.png"; sourceTree = "<group>"; };
+		5BA0B22E1F78256C00137C7A /* HeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		283465D01F6FBCD100A30248 /* DynamicCells */ = {
 			isa = PBXGroup;
 			children = (
+				5BA0B22C1F78206E00137C7A /* Unchecked Checkbox Filled-50.png */,
 				28FC56871F7012FB00D628A4 /* button-background.png */,
 				28FC56801F700DA100D628A4 /* Poppins-Light.ttf */,
 				283465FC1F6FE55B00A30248 /* arrowdown.png */,
@@ -100,6 +109,10 @@
 				28FC56821F700FA200D628A4 /* ObligatoryCell.h */,
 				28FC56831F700FA200D628A4 /* ObligatoryCell.m */,
 				28FC56841F700FA200D628A4 /* ObligatoryCell.xib */,
+				5BA0B2271F77C16700137C7A /* ExpandableCell.h */,
+				5BA0B2281F77C16700137C7A /* ExpandableCell.m */,
+				5BA0B2291F77C16700137C7A /* ExpandableCell.xib */,
+				5BA0B22E1F78256C00137C7A /* HeightCell.h */,
 			);
 			path = DynamicCells;
 			sourceTree = "<group>";
@@ -174,6 +187,8 @@
 				28FC56811F700DA100D628A4 /* Poppins-Light.ttf in Resources */,
 				283465E11F6FBCD100A30248 /* LaunchScreen.storyboard in Resources */,
 				283465FD1F6FE55B00A30248 /* arrowdown.png in Resources */,
+				5BA0B22B1F77C16700137C7A /* ExpandableCell.xib in Resources */,
+				5BA0B22D1F78206E00137C7A /* Unchecked Checkbox Filled-50.png in Resources */,
 				283465F91F6FE4EC00A30248 /* TableViewCell.xib in Resources */,
 				28FC56881F7012FB00D628A4 /* button-background.png in Resources */,
 				283465EE1F6FBCFD00A30248 /* DynamicCells.xib in Resources */,
@@ -192,6 +207,7 @@
 			files = (
 				283465D91F6FBCD100A30248 /* ViewController.m in Sources */,
 				283465ED1F6FBCFD00A30248 /* DynamicCells.m in Sources */,
+				5BA0B22A1F77C16700137C7A /* ExpandableCell.m in Sources */,
 				283465D61F6FBCD100A30248 /* AppDelegate.m in Sources */,
 				283465F81F6FE4EC00A30248 /* TableViewCell.m in Sources */,
 				283465D31F6FBCD100A30248 /* main.m in Sources */,
@@ -317,6 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TXG6EHC68B;
 				INFOPLIST_FILE = DynamicCells/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dcava.examples.DynamicCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TXG6EHC68B;
 				INFOPLIST_FILE = DynamicCells/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dcava.examples.DynamicCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";

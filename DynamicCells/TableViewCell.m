@@ -24,4 +24,14 @@
 
 
 
+
+- (IBAction)btnUnderstand:(id)sender {
+    
+    NSLog(@"boton pulsado");
+       
+    [self.delegate upHeightCell: self];
+    
+    
+    
+}
 @end

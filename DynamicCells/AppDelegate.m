@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DynamicCells.h"
+#import "ExpandableCell.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,9 @@
     
     [self.window makeKeyAndVisible];
     
-    DynamicCells *controller = [[DynamicCells alloc] init];
+    //DynamicCells *controller = [[DynamicCells alloc] init];
+    
+    ExpandableCell *controller = [[ExpandableCell alloc] init];
     
     UINavigationController *nav =[[UINavigationController alloc] initWithRootViewController:controller];
     
